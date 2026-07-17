@@ -4,16 +4,16 @@ int main()
 {
     printf("+----------------+--------+--------+\n");
     printf("|");
-    printf("%-16s", "Name");
+    printf("%-16s", " Name");
     printf("|");
-    printf("%-8s", "Score1");
+    printf("%-8s", " Score1");
     printf("|");
-    printf("%-8s", "Score2");
+    printf("%-8s", " Score2");
     printf("|\n");
     printf("+----------------+--------+--------+\n");
 
     printf("|");
-    printf("%-16s", "Alice");
+    printf("%-16s", " Alice");
     printf("|");
     printf("%8s", "85");
     printf("|");
@@ -21,7 +21,7 @@ int main()
     printf("|\n");
 
     printf("|");
-    printf("%-16s", "Bob");
+    printf("%-16s", " Bob");
     printf("|");
     printf("%8s", "78");
     printf("|");
@@ -29,7 +29,7 @@ int main()
     printf("|\n");
 
     printf("|");
-    printf("%-16s", "Charlie");
+    printf("%-16s", " Charlie");
     printf("|");
     printf("%8s", "92");
     printf("|");
